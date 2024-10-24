@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM || Finding Children</title>
+    <style>
+        .btn {
+            background-color: blue;
+        }
+
+        .popup-container {
+            position: fixed;
+            width: 400px;
+            background-color: red;
+            transform: scale(0%) translate(80%, 100%);
+            transition: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="container"><h1>This is a heaidng</h1><div class="box01"></div><div class="box01"></div><div class="box01"></div><div class="box01"></div></div> -->
+
+    <!-- <button onclick="changeMe()">Click to change my color</button> -->
+    <button onclick="openPopup()">+</button>
+
+    <div class="popup-container">
+        <h1>Wasay Rashid</h1>
+        <button>See more</button>
+        <button>Linkedin Account</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
